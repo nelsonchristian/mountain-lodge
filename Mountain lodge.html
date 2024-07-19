@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain Lodge</title>
+    <link rel="stylesheet" href="mountain.css">
+    <link rel="stylesheet" href="mountain.js">
+</head>
+<body>
+    <img src="file:///C:/Users/Nelson/Desktop/mountain3.jpg">
+    <header>
+        <h1>Welcome to Mountain Lodge</h1>
+        <nav>
+            <ul>
+                <li><a href="#" class="">Home</a></li>
+                <li><a href="#" class="">About Us</a></li>
+                <li><a href="#" class="">Rooms</a></li>
+                <li><a href="#" class="">Amenities</a></li>
+                <li><a href="#" class="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>Experience the Serenity</h2>
+            <p>Welcome to Mountain Lodge, where comfort meets tranquility. Nestled in the heart of the mountains, our lodge offers breathtaking views and unparalleled service.</p>
+        </section>
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <div class="images">
+                <img src="file:///C:/Users/Nelson/Desktop/mountain1.jpg" alt="mountain1 Image 1">
+                <img src="le:///C:/Users/Nelson/Desktop/mountain2.jpg.jpg" alt="mountain2 Image 2">
+                <img src="file:///C:/Users/Nelson/Desktop/mountain3.jpg" alt="mountain3 Image 3">
+            </div>
+        </section>
+          <section class="registration">
+            <h2>Visitor Registration</h2>
+            <form id="registration-form">
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                
+                <label for="days">Number of Days:</label>
+                <input type="number" id="days" name="days" min="1" required><br>
+                
+                <label for="room-type">Type of Room:</label><br>
+                <select id="room-type" name="room-type" required>
+                    <option value="single">Single Room</option>
+                    <option value="double">Double Room</option>
+                    <option value="suite">Suite</option>
+                </select>
+                
+                <button type="submit">Register</button>
+            </form>
+    </main>
+    <footer>
+        <p> 2024 Mountain Lodge</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
